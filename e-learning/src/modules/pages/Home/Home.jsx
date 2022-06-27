@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Footer from '../../components/Footer/Footer'
 import Header from '../../components/Header/Header'
-import Courses from './components/Introduction/Courses'
+import CoursesLayout from './components/Introduction/CoursesLayout'
 import SignUpArea from './components/SignUpArea/SignUpArea'
 
 export default class Home extends Component {
@@ -10,7 +10,7 @@ export default class Home extends Component {
       <div>
         <Header />
         <SignUpArea />
-        <Courses />
+        <CoursesLayout />
         <Footer />
       </div>
     )
