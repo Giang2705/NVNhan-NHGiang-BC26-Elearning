@@ -1,0 +1,22 @@
+.box {
+  width: 50%;
+}
+@media only screen and (min-width: 1024px) {
+  .box {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  h2 {
+    margin-top: 0;
+  }
+}
+
+h2 {
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 2.125rem;
+  font-size: 0.875rem;
+  margin-top: 1rem;
+}

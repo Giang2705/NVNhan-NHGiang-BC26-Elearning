@@ -1,0 +1,36 @@
+export const courseCatalog = [
+  {
+    title: "Subjects",
+    subItem: [
+      { title: "Web Development" },
+      { title: "Data Science" },
+      { title: "Developer Tools" },
+      { title: "Machine Learning" },
+      { title: "Code Foundations" },
+      { title: "Web Design" },
+      { title: "-" },
+      { title: "Full Catalog" },
+      { title: "Beta Content" },
+      { title: "Roadmap" },
+    ],
+  },
+  {
+    title: "Languages",
+    subItem: [
+      { title: "HTML & CSS" },
+      { title: "Python" },
+      { title: "JavaScript" },
+      { title: "Java" },
+      { title: "SQL" },
+      { title: "Bash/Shell" },
+      { title: "Ruby" },
+      { title: "C++" },
+      { title: "R" },
+      { title: "C#" },
+      { title: "PHP" },
+      { title: "Go" },
+      { title: "Swift" },
+      { title: "Kotlin" },
+    ],
+  },
+];

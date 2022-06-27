@@ -1,0 +1,35 @@
+.Container {
+  padding-left: 4rem;
+}
+@media only screen and (min-width: 768px) {
+  .Container {
+    padding-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .Container {
+    border-left: 1px solid #000;
+    border-top: none;
+    margin-left: 0;
+    margin-top: 0;
+    padding-left: 2rem;
+    padding-top: 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .Container {
+    padding-left: 4rem;
+  }
+}
+
+.CataBox {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width: 768px) {
+  .CataBox {
+    flex-direction: row;
+  }
+}
