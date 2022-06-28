@@ -68,7 +68,6 @@ export const Title = styled.h2`
   text-transform: uppercase;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
-
   @media only screen and (min-width: 768px) {
     font-size: 1rem;
     margin-top: 0;

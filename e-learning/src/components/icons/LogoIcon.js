@@ -13,7 +13,7 @@ const LogoIcon = ({
       viewBox="0 0 24 24"
       stroke={stroke}
       strokeWidth={stokeWidth}
-      style={{width:"60px"}}
+      style={{width:"60px", overflow:"hidden"}}
     >
       <path
         strokeLinecap="round"
