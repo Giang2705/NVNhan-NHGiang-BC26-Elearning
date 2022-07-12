@@ -1,14 +1,14 @@
 
-import Footer from "components/Footer";
-import Header from "components/Header";
+import FooterContainer from "components/FooterContainer";
+import HeaderContainer from "components/HeaderContainer";
 import React from "react";
 
 const Register = () => {
   return (
     <>
-      <Header />
+      <HeaderContainer />
       <div>register</div>
-      <Footer />
+      <FooterContainer />
     </>
   );
 };

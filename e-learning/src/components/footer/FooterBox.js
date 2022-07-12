@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import Footer from "./index";
-import styles from './FooterBox.module.css'
 
 const FooterBox = ({ items }) => {
   let ref = useRef();

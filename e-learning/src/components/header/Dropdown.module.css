@@ -1,0 +1,30 @@
+.LinkSection {
+  list-style: none;
+}
+
+.LinkItem {
+  cursor: pointer;
+
+  border: none;
+  padding: 1rem 0;
+  box-shadow: none;
+  min-width: 0;
+
+  background: none;
+  position: relative;
+  background-color: transparent;
+  display: flex;
+
+  font-size: inherit;
+  text-decoration: none;
+  color: #10162f;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: left;
+  white-space: nowrap;
+
+  @media only screen and (min-width: 1200px) {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}

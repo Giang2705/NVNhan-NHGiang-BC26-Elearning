@@ -1,13 +1,19 @@
-import MenuItems from "./MenuItems";
-const Dropdown = ({ submenus, dropdown, depthLevel }) => {
-  depthLevel = depthLevel + 1;
-  const dropdownClass = depthLevel > 1 ? "dropdownSubmenu" : "";
+import Header from "./index";
+import styled from "./Dropdown.module.css";
+
+const Dropdown = ({ submenus, dropdown }) => {
   return (
-    <ul className={`dropdown ${dropdownClass} ${dropdown ? "show" : ""}`}>
-      {submenus.map((submenu, index) => (
-        <MenuItems items={submenu} key={index} depthLevel={depthLevel} />
-      ))}
-    </ul>
+    <Header.Dropdown className={`dropdown ${dropdown ? "show" : ""}`}>
+      <ul className={styled.LinkSection}>
+        {submenus.map((submenu, index) => (
+          <li key={index}>
+            <a href={submenu.path} className={styled.LinkItem}>
+              {submenu.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </Header.Dropdown>
   );
 };
 
